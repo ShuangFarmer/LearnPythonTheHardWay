@@ -3,12 +3,11 @@
 
 from sys import argv # sys: library argv: module
 
-script, first, second, third = argv
+script, animation, song = argv
 
 print "The script is called:", script
-print "Your first variable is:", first
-print "Your second variable is:", second
-print "Your third variable is:", third
+print "The animation you recently watched:", animation
+print "The song you recently listen to:", song
 
 # when runing the code in Terminal, 
 # remember to input arguments  
