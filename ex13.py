@@ -3,11 +3,14 @@
 
 from sys import argv # sys: library argv: module
 
-script, animation, song = argv
+script, space, time = argv
 
-print "The script is called:", script
-print "The animation you recently watched:", animation
-print "The song you recently listen to:", song
+print "The script is called: ", script
+print "which planet you are living? ", space
+print "what time is it now? ", time
+
+animation = raw_input("The animation you recently watched:")
+song = raw_input("The song you recently listen to:" )
 
 # when runing the code in Terminal, 
 # remember to input arguments  
