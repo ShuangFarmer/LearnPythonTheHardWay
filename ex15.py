@@ -17,7 +17,7 @@ txt = open(filename)
 print "Here's your file %r:" % filename
 # read() is a function/method that operate the variable txt, AKA an object 
 print txt.read()
-close(txt)
+txt.close()
 
 ## notes  
 # run open() in the shell  
