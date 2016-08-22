@@ -34,3 +34,10 @@ target.write("\n")
 
 print "And finally, we close it."
 target.close()
+
+print "Let's see what's in this file."  
+see = open(filename)
+print see.read()
+
+print "Let's close it again"
+see.close()
