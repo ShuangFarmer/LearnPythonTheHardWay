@@ -40,5 +40,5 @@ see.close()
 
 ## 
 # open(filename, 'r') <- reading
-# open(filename, 'w') <- writing/truncate
+# open(filename, 'w') <- writing(truncating file if it already exists)
 # open(filename, 'a') <- appending
