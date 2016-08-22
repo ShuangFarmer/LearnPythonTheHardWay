@@ -1,6 +1,8 @@
 # code container  
 
-- 在 terminal 输入 `pydoc raw_input` 查看 function 的官方文档。点击 `q` 退出。
+- Help document
+ - 在 terminal 输入`pydoc function_name`，如 `pydoc raw_input` 查看 function 的官方文档。点击 `q` 退出。
+ - 在 terminal 输入 `pydoc command_name`，如`man cat` 查看官方文档
 
 
 - object & method  

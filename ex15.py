@@ -24,3 +24,5 @@ txt.close()
 # $ open("filename") <- get an object  
 # output: <open file 'ex15_sample.txt', mode 'r' at 0x10ee175d0>  
 # $ open("filename").read <- read the text
+
+#  It's important to close files when you are done with them by using the method: .close()
